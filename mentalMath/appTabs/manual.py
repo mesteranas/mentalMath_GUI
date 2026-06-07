@@ -1,4 +1,4 @@
-import guiTools
+import guiTools,gui
 import PyQt6.QtWidgets as qt
 import PyQt6.QtCore as qt2
 import PyQt6.QtGui as qt1
@@ -30,6 +30,20 @@ class ManualMode(qt.QWidget):
 
         layout.addWidget(self.levelSelection)
 
+        # Questions count
+        self.questionsCount=qt.QSlider(
+            qt2.Qt.Orientation.Horizontal
+        )
+        self.questionsCount.setAccessibleName(
+            _("Questions count")
+        )
+        self.questionsCount.setRange(10,1000)
+        self.questionsCount.setValue(15)
+        questionsCountLabel=qt.QLabel(
+            _("Questions count")
+        )
+        layout.addWidget(questionsCountLabel)
+        layout.addWidget(self.questionsCount)
         # -------------------------
         # Time Limit
         # -------------------------
@@ -221,5 +235,8 @@ class ManualMode(qt.QWidget):
             "division":
                 self.divisionCheckBox.isChecked(),
             "mixed_operations":
-                self.mixedOperationsCheckBox.isChecked()
+                self.mixedOperationsCheckBox.isChecked(),
+            "questions_count":
+            self.questionsCount.value()
         }
+        gui.ManualMode.UI(self,config).exec()
