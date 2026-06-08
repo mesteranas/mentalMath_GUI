@@ -1,1 +1,1 @@
-from . import practiceMode,timeChallengeMode
+from . import practiceMode,timeChallengeMode,adaptiveMode

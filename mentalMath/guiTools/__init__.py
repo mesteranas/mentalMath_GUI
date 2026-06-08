@@ -3,7 +3,7 @@ from .listBook import listBook
 from .openLink import OpenLink
 from . import dictionarys
 from .exitApp import ExitApp
-from .speak import speak
+from .speak import speak,QTTS
 from .email import sendEmail
 from .textViewer import TextViewer
 from .helpFile import HelpFile

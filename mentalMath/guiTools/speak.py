@@ -1,9 +1,12 @@
-import os
-os.add_dll_directory(os.path.join(os.getcwd(),"data","dlls"))
-import ctypes
-nvda = ctypes.windll.LoadLibrary(os.path.join(os.getcwd(),"data","dlls","nvda_speak.dll"))
-def speak(msg):
-	running = nvda.nvdaController_testIfRunning()
-	if running != 1:
-		nvda.nvdaController_speakText(msg)
-	print(msg)
+from typing import Optional
+import UniversalSpeech
+from PyQt6.QtTextToSpeech import QTextToSpeech
+STTS=UniversalSpeech.UniversalSpeech()
+STTS.enable_native_speech(False)
+def speak(text:str):
+    STTS.say(text,True)
+class QTTS(QTextToSpeech):
+    def __init__(self, engine: Optional[str] = None, parent=None):
+        super().__init__(engine, parent)
+    def speak(self, msg: str) -> None:
+        self.say(msg)

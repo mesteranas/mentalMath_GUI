@@ -13,7 +13,6 @@ class UI(qt.QDialog):
         self.wrongAnswersExplaination=""
         self.questionTimes=[]
         self.alabsedTime=0
-        self.timeRemaining=self.submitDict["time_limit"]
         self.result=0
         self.correctAnswers=0
         self.wrongAnswers=0
@@ -22,12 +21,6 @@ class UI(qt.QDialog):
         self.timer=qt2.QTimer(self)
         self.timer.timeout.connect(self.onTimeTregared)
         self.timer.start(1000)
-        # Time label
-        self.timeLabel=qt.QLabel()
-        self.timeLabel.setFocusPolicy(qt2.Qt.FocusPolicy.StrongFocus)
-        qt1.QShortcut("ctrl+r",self).activated.connect(lambda:self.enjen.say(self.timeLabel.text()))
-        qt1.QShortcut("ctrl+shift+r",self).activated.connect(lambda:guiTools.speak(self.timeLabel.text()))
-        layout.addWidget(self.timeLabel)
         self.equation=guiTools.QReadOnlyTextEdit()
         self.equation.setAccessibleName(_("Equation"))
         layout.addWidget(self.equation)
@@ -40,14 +33,8 @@ class UI(qt.QDialog):
         layout.addWidget(self.answer)
         qt1.QShortcut("escape",self)
         self.getQuestion()
-        self.pause=qt.QPushButton(_("Pause"))
-        self.pause.setDefault(False)
-        self.pause.setFocusPolicy(qt2.Qt.FocusPolicy.NoFocus)
-        self.pause.clicked.connect(self.onPause)
-        layout.addWidget(self.pause)
         qt1.QShortcut("f2",self).activated.connect(lambda:self.enjen.say(self.equation.toPlainText()))
         qt1.QShortcut("shift+f2",self).activated.connect(lambda:guiTools.speak(self.equation.toPlainText()))
-        qt1.QShortcut("ctrl+p",self).activated.connect(self.onPause)
         self.answer.setFocus()
     def getQuestion(self):
         self.answer.setText("")
@@ -87,23 +74,7 @@ class UI(qt.QDialog):
         self.getQuestion()
     def onTimeTregared(self):
         self.alabsedTime+=1
-        self.timeRemaining-=1
-        self.timeLabel.setText(_("Remaining time : {} seconds").format(str(self.timeRemaining)))
-        if self.timeRemaining==0:
-            self.close()
-            Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.submitDict["time_limit"],self.wrongAnswersExplaination).exec()
     def closeEvent(self, a0):
         self.timer.stop()
         a0.accept()
-    def onPause(self):
-        if self.timer.isActive():
-            self.enjen.speak(_("Paused"))
-            self.timer.stop()
-            self.pause.setText(_("Resume"))
-            self.answer.setVisible(False)
-        else:
-            self.enjen.speak(_("Resumed"))
-            self.timer.start(1000)
-            self.pause.setText(_("Pause"))
-            self.answer.setVisible(True)
-            qt2.QTimer.singleShot(2000,self.getQuestion)
+        Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.wrongAnswersExplaination).exec()

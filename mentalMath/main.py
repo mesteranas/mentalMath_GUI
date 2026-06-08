@@ -14,6 +14,7 @@ class main (qt.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(app.name + _("version : ") + str(app.version))
+        self.resize(800,800)
         layout=qt.QVBoxLayout()
         # Create a tab bar for mode selection
         self.modeSelectionTabBar=qt.QTabWidget()
@@ -21,6 +22,7 @@ class main (qt.QMainWindow):
         # Add modes
         self.modeSelectionTabBar.addTab(appTabs.PracticeMode(),_("Practice mode"))
         self.modeSelectionTabBar.addTab(appTabs.TimeChallengeMode(),_("Time challenge mode"))
+        self.modeSelectionTabBar.addTab(appTabs.AdaptiveMode(),_("Adaptive mode"))
         layout.addWidget(self.modeSelectionTabBar)
         self.setting=guiTools.QPushButton(_("settings"))
         self.setting.clicked.connect(lambda: settings(self).exec())

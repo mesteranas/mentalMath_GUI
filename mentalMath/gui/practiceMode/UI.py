@@ -9,7 +9,7 @@ from PyQt6 import QtTextToSpeech
 class UI(qt.QDialog):
     def __init__(self,p,submitDict):
         super().__init__(p)
-        self.enjen=QtTextToSpeech.QTextToSpeech()
+        self.enjen=guiTools.QTTS()
         self.enjen.stateChanged.connect(self.speachStatesChanged)
         self.submitDict=submitDict
         self.timeStop=False
@@ -45,6 +45,12 @@ class UI(qt.QDialog):
         self.answer.setValidator(qt1.QDoubleValidator())
         self.answer.returnPressed.connect(self.onSubmit)
         layout.addWidget(self.answer)
+        if self.submitDict["time_limit_enabled"]:
+            self.pause=qt.QPushButton(_("Pause"))
+            self.pause.setDefault(False)
+            self.pause.setFocusPolicy(qt2.Qt.FocusPolicy.NoFocus)
+            self.pause.clicked.connect(self.onPause)
+            layout.addWidget(self.pause)
         qt1.QShortcut("escape",self)
         self.getQuestion()
         qt1.QShortcut("f2",self).activated.connect(lambda:self.enjen.say(self.equation.toPlainText()))
@@ -77,7 +83,7 @@ class UI(qt.QDialog):
             equation,result=handler.number2Equation(level,operations)
         self.equation.setText(equation)
         self.result=result
-        self.enjen.say(equation)
+        self.enjen.speak(equation)
         self.questionSolved+=1
     def onSubmit(self):
         try:
@@ -116,8 +122,13 @@ class UI(qt.QDialog):
         a0.accept()
     def onPause(self):
         if self.timer.isActive():
-            self.enjen.say("Paused")
+            self.enjen.speak(_("Paused"))
             self.timer.stop()
+            self.pause.setText(_("Resume"))
+            self.answer.setVisible(False)
         else:
-            self.enjen.say("Resumed")
+            self.enjen.speak(_("Resumed"))
             self.timer.start(1000)
+            self.pause.setText(_("Pause"))
+            self.answer.setVisible(True)
+            qt2.QTimer.singleShot(2000,self.getQuestion)
