@@ -31,9 +31,7 @@ class PracticeMode(qt.QWidget):
         layout.addWidget(self.levelSelection)
 
         # Questions count
-        self.questionsCount=qt.QSlider(
-            qt2.Qt.Orientation.Horizontal
-        )
+        self.questionsCount=qt.QSpinBox()
         self.questionsCount.setAccessibleName(
             _("Questions count")
         )

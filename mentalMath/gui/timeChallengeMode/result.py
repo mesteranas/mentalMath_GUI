@@ -1,3 +1,4 @@
+import guiTools
 import PyQt6.QtWidgets as qt
 import PyQt6.QtCore as qt2
 import PyQt6.QtGui as qt1
@@ -10,7 +11,8 @@ class Result(qt.QDialog):
         questionTimes: list,
         correct: int,
         encorrect: int,
-        time:int
+        time:int,
+        wrongAnswerExplaining:str
     ):
         super().__init__(p)
 
@@ -25,6 +27,12 @@ class Result(qt.QDialog):
         self.resize(500, 350)
 
         layout = qt.QVBoxLayout(self)
+
+        # Wrong answers
+        self.wrongAnswers=guiTools.QReadOnlyTextEdit()
+        self.wrongAnswers.setText(wrongAnswerExplaining)
+        self.wrongAnswers.setAccessibleName(_("Wrong answers"))
+        layout.addWidget(self.wrongAnswers)
 
         # Results list
         self.resultList = qt.QListWidget()

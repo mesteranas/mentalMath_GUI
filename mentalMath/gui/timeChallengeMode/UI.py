@@ -11,6 +11,7 @@ class UI(qt.QDialog):
         super().__init__(p)
         self.enjen=QtTextToSpeech.QTextToSpeech()
         self.submitDict=submitDict
+        self.wrongAnswersExplaination=""
         self.questionTimes=[]
         self.alabsedTime=0
         self.timeRemaining=self.submitDict["time_limit"]
@@ -42,6 +43,7 @@ class UI(qt.QDialog):
         self.getQuestion()
         qt1.QShortcut("f2",self).activated.connect(lambda:self.enjen.say(self.equation.toPlainText()))
         qt1.QShortcut("shift+f2",self).activated.connect(lambda:guiTools.speak(self.equation.toPlainText()))
+        qt1.QShortcut("ctrl+p",self).activated.connect(self.onPause)
         self.answer.setFocus()
     def getQuestion(self):
         self.answer.setText("")
@@ -72,10 +74,12 @@ class UI(qt.QDialog):
             else:
                 winsound.PlaySound("data/sounds/2.wav",1)
                 self.wrongAnswers+=1
+                self.wrongAnswersExplaination+=_("{}\nYour answer : {}\nCorrect answer : {}\n").format(self.equation.toPlainText(),self.answer.text(),self.result)
         except Exception as e:
             print(e)
             winsound.PlaySound("data/sounds/2.wav",1)
             self.wrongAnswers+=1
+            self.wrongAnswersExplaination+=_("{}\nYour answer : {}\nCorrect answer : {}\n").format(self.equation.toPlainText(),self.answer.text(),self.result)
         self.getQuestion()
     def onTimeTregared(self):
         self.alabsedTime+=1
@@ -83,7 +87,14 @@ class UI(qt.QDialog):
         self.timeLabel.setText(_("Remaining time : {} seconds").format(str(self.timeRemaining)))
         if self.timeRemaining==0:
             self.close()
-            Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.submitDict["time_limit"]).exec()
+            Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.submitDict["time_limit"],self.wrongAnswersExplaination).exec()
     def closeEvent(self, a0):
         self.timer.stop()
         a0.accept()
+    def onPause(self):
+        if self.timer.isActive():
+            self.enjen.say("Paused")
+            self.timer.stop()
+        else:
+            self.enjen.say("Resumed")
+            self.timer.start(1000)
