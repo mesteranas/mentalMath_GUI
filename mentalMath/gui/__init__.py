@@ -1,1 +1,1 @@
-from . import ManualMode
+from . import practiceMode

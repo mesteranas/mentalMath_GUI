@@ -147,3 +147,59 @@ def number2Equation(level: int, operations: list) -> tuple:
 
     equation_str = f"{num1} {speech_op} {num2}"
     return equation_str, result
+def mixedEquation(level: int, operations: list) -> tuple:
+    if level == 1 or level == 2:
+        count = 3
+    elif level == 3 or level == 4:
+        count = random.randint(3, 4)
+    else:
+        count = random.randint(3, 5)
+
+    if level == 1:
+        get_num = lambda: random.randint(1, 9)
+    elif level == 2:
+        get_num = lambda: random.randint(1, 15)
+    elif level == 3:
+        get_num = lambda: random.randint(5, 40)
+    elif level == 4:
+        get_num = lambda: random.randint(10, 80)
+    else:
+        get_num = lambda: random.randint(20, 200)
+
+    while True:
+        nums = [get_num() for _ in range(count)]
+        ops = [random.choice(operations) for _ in range(count - 1)]
+        
+        eval_parts = []
+        for i in range(len(ops)):
+            eval_parts.append(str(nums[i]))
+            eval_parts.append(ops[i])
+        eval_parts.append(str(nums[-1]))
+        
+        math_expression = " ".join(eval_parts)
+        
+        try:
+            result = eval(math_expression)
+            
+            if result == int(result) and result >= 0:
+                final_result = int(result)
+                break
+        except ZeroDivisionError:
+            continue
+
+    speech_map = {
+        '+': 'plus',
+        '-': 'minus',
+        '*': 'times',
+        '/': 'divided by'
+    }
+    
+    speech_parts = []
+    for part in eval_parts:
+        if part in speech_map:
+            speech_parts.append(speech_map[part])
+        else:
+            speech_parts.append(part)
+            
+    equation_str = " ".join(speech_parts)
+    return equation_str, final_result

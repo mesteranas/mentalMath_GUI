@@ -3,7 +3,7 @@ import PyQt6.QtWidgets as qt
 import PyQt6.QtCore as qt2
 import PyQt6.QtGui as qt1
 
-class ManualMode(qt.QWidget):
+class PracticeMode(qt.QWidget):
     def __init__(self):
         super().__init__()
         layout = qt.QVBoxLayout(self)
@@ -115,6 +115,10 @@ class ManualMode(qt.QWidget):
         self.multiplicationCheckBox.setChecked(True)
         self.divisionCheckBox.setChecked(True)
 
+        self.additionCheckBox.checkStateChanged.connect(self.submitButtonStates)
+        self.subtractionCheckBox.checkStateChanged.connect(self.submitButtonStates)
+        self.multiplicationCheckBox.checkStateChanged.connect(self.submitButtonStates)
+        self.divisionCheckBox.checkStateChanged.connect(self.submitButtonStates)
         operationsLayout.addWidget(
             self.additionCheckBox
         )
@@ -150,14 +154,8 @@ class ManualMode(qt.QWidget):
             _("Enable mixed operations")
         )
 
-        self.mixedOperationsCheckBox.setVisible(False)
-
         layout.addWidget(
             self.mixedOperationsCheckBox
-        )
-
-        self.levelSelection.valueChanged.connect(
-            self.updateMixedOperationVisibility
         )
 
         # -------------------------
@@ -214,11 +212,6 @@ class ManualMode(qt.QWidget):
             }
         """)
 
-    def updateMixedOperationVisibility(self, level):
-        self.mixedOperationsCheckBox.setVisible(
-            level >= 3
-        )
-
     def submitConfiguration(self):
         config = {
             "level": self.levelSelection.value(),
@@ -239,4 +232,13 @@ class ManualMode(qt.QWidget):
             "questions_count":
             self.questionsCount.value()
         }
-        gui.ManualMode.UI(self,config).exec()
+        gui.practiceMode.UI(self,config).exec()
+    def submitButtonStates(self,state):
+        plus=not self.additionCheckBox.isChecked()
+        mines=not self.subtractionCheckBox.isChecked()
+        mulitbly=not self.multiplicationCheckBox.isChecked()
+        devited=not self.divisionCheckBox.isChecked()
+        if plus and mines and mulitbly and devited:
+            self.submitButton.setDisabled(True)
+        else:
+            self.submitButton.setEnabled(True)

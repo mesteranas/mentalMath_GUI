@@ -39,7 +39,7 @@ class UI(qt.QDialog):
         self.answer.setPlaceholderText(_("Type your answer"))
         self.answer.setAccessibleName(_("Type your answer"))
         self.answer.setAccessibleDescription(_("Press enter to submit"))
-        self.answer.textChanged.connect(self.answerTextHandler)
+        self.answer.setValidator(qt1.QDoubleValidator())
         self.answer.returnPressed.connect(self.onSubmit)
         layout.addWidget(self.answer)
         qt1.QShortcut("escape",self)
@@ -67,7 +67,10 @@ class UI(qt.QDialog):
             operations.append("*")
         if self.submitDict["division"]:
             operations.append("/")
-        equation,result=handler.number2Equation(level,operations)
+        if self.submitDict["mixed_operations"]:
+            equation,result=handler.mixedEquation(level,operations)
+        else:
+            equation,result=handler.number2Equation(level,operations)
         self.equation.setText(equation)
         self.result=result
         self.enjen.say(equation)
@@ -85,12 +88,6 @@ class UI(qt.QDialog):
             winsound.PlaySound("data/sounds/2.wav",1)
             self.wrongAnswers+=1
         self.getQuestion()
-    def answerTextHandler(self,text):
-        try:
-            if not text[-1].isdigit():
-                self.answer.setText(text[:-2])
-        except:
-            pass
     def onTimeTregared(self):
         self.alabsedTime+=1
         if self.submitDict["time_limit_enabled"]:
