@@ -20,6 +20,7 @@ class main (qt.QMainWindow):
         self.modeSelectionTabBar.setAccessibleName(_("Choose your prefaired mode"))
         # Add modes
         self.modeSelectionTabBar.addTab(appTabs.PracticeMode(),_("Practice mode"))
+        self.modeSelectionTabBar.addTab(appTabs.TimeChallengeMode(),_("Time challenge mode"))
         layout.addWidget(self.modeSelectionTabBar)
         self.setting=guiTools.QPushButton(_("settings"))
         self.setting.clicked.connect(lambda: settings(self).exec())
