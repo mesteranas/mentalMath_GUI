@@ -1,6 +1,7 @@
 from ..practiceMode import handler
 from .result import Result
 import guiTools
+import settings
 import winsound
 import PyQt6.QtWidgets as qt
 import PyQt6.QtCore as qt2
@@ -10,6 +11,10 @@ class UI(qt.QDialog):
         super().__init__(p)
         self.enjen=guiTools.QTTS()
         self.submitDict=submitDict
+        # self.level=int(settings.settings_handler.get("adaptiveMode","level"))
+        self.level=1
+        self.currentQuestionsPerform=0
+        self.correctAnswersPerform=0
         self.wrongAnswersExplaination=""
         self.questionTimes=[]
         self.alabsedTime=0
@@ -40,8 +45,20 @@ class UI(qt.QDialog):
         self.answer.setText("")
         self.questionTimes.append(self.alabsedTime)
         self.alabsedTime=0
+        if self.currentQuestionsPerform==10:
+            self.currentQuestionsPerform=0
+            accuracy=((self.correctAnswersPerform/10)*100)
+            if accuracy>=80:
+                if not self.level==5:
+                    self.level+=1
+                    guiTools.speak(_("Congrats! You are now at level {}").format(self.level))
+            elif accuracy<=50:
+                if not self.level==1:
+                    self.level-=1
+                    guiTools.speak(_("Please focuse! Your level has ben drupped to level{}").format(self.level))
+            self.correctAnswersPerform=0
+        self.currentQuestionsPerform+=1
         operations=[]
-        level=self.submitDict["level"]
         if self.submitDict["addition"]:
             operations.append("+")
         if self.submitDict["subtraction"]:
@@ -51,9 +68,9 @@ class UI(qt.QDialog):
         if self.submitDict["division"]:
             operations.append("/")
         if self.submitDict["mixed_operations"]:
-            equation,result=handler.mixedEquation(level,operations)
+            equation,result=handler.mixedEquation(self.level,operations)
         else:
-            equation,result=handler.number2Equation(level,operations)
+            equation,result=handler.number2Equation(self.level,operations)
         self.equation.setText(equation)
         self.result=result
         self.enjen.speak(equation)
@@ -62,6 +79,7 @@ class UI(qt.QDialog):
             if self.result==int(self.answer.text()):
                 winsound.PlaySound("data/sounds/1.wav",1)
                 self.correctAnswers+=1
+                self.correctAnswersPerform+=1
             else:
                 winsound.PlaySound("data/sounds/2.wav",1)
                 self.wrongAnswers+=1
@@ -76,5 +94,6 @@ class UI(qt.QDialog):
         self.alabsedTime+=1
     def closeEvent(self, a0):
         self.timer.stop()
+        settings.settings_handler.set("adaptiveMode","level",str(self.level))
         a0.accept()
-        Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.wrongAnswersExplaination).exec()
+        Result(self,self.questionTimes,self.correctAnswers,self.wrongAnswers,self.wrongAnswersExplaination,self.level).exec()

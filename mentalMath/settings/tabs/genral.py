@@ -2,10 +2,10 @@ import guiTools,update
 import zipfile
 import sys
 import os,shutil
-from settings import settings_handler,app
-from settings import language
-import PyQt6.QtWidgets as qt
 import sys
+from settings import language
+from settings import settings_handler,app
+import PyQt6.QtWidgets as qt
 import PyQt6.QtGui as qt1
 from PyQt6.QtCore import Qt
 language.init_translation()

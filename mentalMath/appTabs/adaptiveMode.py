@@ -138,7 +138,6 @@ class AdaptiveMode(qt.QWidget):
 
     def submitConfiguration(self):
         config = {
-            "level": 1,
             "addition":
                 self.additionCheckBox.isChecked(),
             "subtraction":

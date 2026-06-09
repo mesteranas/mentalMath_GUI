@@ -11,7 +11,8 @@ class Result(qt.QDialog):
         questionTimes: list,
         correct: int,
         encorrect: int,
-        wrongAnswerExplaining:str
+        wrongAnswerExplaining:str,
+        level:int
     ):
         super().__init__(p)
 
@@ -40,7 +41,8 @@ class Result(qt.QDialog):
         )
 
         layout.addWidget(self.resultList)
-
+        # Your current level
+        self.resultList.addItem(_("Current level:{}").format(level))
         # Correct answers
         self.resultList.addItem(
             _("You answered {} out of {} questions correctly").format(

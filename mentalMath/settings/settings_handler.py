@@ -24,6 +24,12 @@ settingsConfig={
 	"update":{
 		"autoCheck":"True",
 		"beta":"False"
+	},
+	"adaptiveMode":{
+		"level":"1"
+	},
+	"speech":{
+		"disable":"False"
 	}
 }
 if not os.path.exists(cpath):
