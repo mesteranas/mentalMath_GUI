@@ -1,4 +1,4 @@
-\# MentalMath
+# MentalMath
 
 
 
@@ -6,41 +6,26 @@ An inclusive, fully accessible application designed specifically for blind and v
 
 
 
-\## Table of Contents
+## Table of Contents
+* [Why MentalMath?](#why-mentalmath)
+* [My Hope for this Project](#my-hope-for-this-project)
+* [Installation & Usage](#installation--usage)
+* [Practice Modes](#practice-modes)
+* [Difficulty Levels](#difficulty-levels)
+* [Practice Area & Keyboard Shortcuts](#practice-area--keyboard-shortcuts)
+* [Results & Evaluation](#results--evaluation)
+* [Mixed Operations & PEMDAS](#mixed-operations--pemdas)
+* [Settings](#settings)
+* [Supported Languages](#supported-languages)
+* [Contributing & Translations](#contributing--translations)
+* [License](#license)
+
+
+---
 
 
 
-\* \[Why MentalMath?](https://www.google.com/search?q=%23why-mentalmath)
-
-\* \[My Hope for this Project](https://www.google.com/search?q=%23my-hope-for-this-project)
-
-\* \[Installation \& Usage](https://www.google.com/search?q=%23installation--usage)
-
-\* \[Practice Modes](https://www.google.com/search?q=%23practice-modes)
-
-\* \[Difficulty Levels](https://www.google.com/search?q=%23difficulty-levels)
-
-\* \[Practice Area \& Keyboard Shortcuts](https://www.google.com/search?q=%23practice-area--keyboard-shortcuts)
-
-\* \[Results \& Evaluation](https://www.google.com/search?q=%23results--evaluation)
-
-\* \[Mixed Operations \& PEMDAS](https://www.google.com/search?q=%23mixed-operations--pemdas)
-
-\* \[Settings](https://www.google.com/search?q=%23settings)
-
-\* \[Supported Languages](https://www.google.com/search?q=%23supported-languages)
-
-\* \[Contributing \& Translations](https://www.google.com/search?q=%23contributing--translations)
-
-\* \[License](https://www.google.com/search?q=%23license)
-
-
-
-\---
-
-
-
-\## Why MentalMath?
+## Why MentalMath?
 
 
 
@@ -52,7 +37,7 @@ I discovered a severe lack of applications in this field that prioritize screen 
 
 
 
-\## My Hope for this Project
+## My Hope for this Project
 
 
 
@@ -60,19 +45,19 @@ Studies show that over 70% of people dislike math. I hope this app will grow, ch
 
 
 
-\---
+---
 
 
 
-\## Installation \& Usage
+## Installation & Usage
 
 
 
-You can download the latest version of MentalMath from \[the releases page](https://github.com/mesteranas/mentalMath\_GUI).
+You can download the latest version of MentalMath from [the releases page](https://github.com/mesteranas/mentalMath_GUI).
 
 
 
-After downloading, run the installer and follow the provided instructions. \*(Note: The installation process is currently only available in English).\* Once installed, the app will automatically launch in your device's default language if it is supported; otherwise, it will default to English.
+After downloading, run the installer and follow the provided instructions. *(Note: The installation process is currently only available in English).* Once installed, the app will automatically launch in your device's default language if it is supported; otherwise, it will default to English.
 
 
 
@@ -80,27 +65,27 @@ Upon opening the app, you will find a tab bar allowing you to select your prefer
 
 
 
-\---
+---
 
 
 
-\## Practice Modes
+## Practice Modes
 
 
 
-\* \*\*Practice Mode:\*\* Choose exactly how many questions you want to answer, select your desired difficulty level, and enable an optional time limit.
+* **Practice Mode:** Choose exactly how many questions you want to answer, select your desired difficulty level, and enable an optional time limit.
 
-\* \*\*Time Challenge Mode:\*\* Set a strict time limit (in seconds) and test yourself to see how many questions you can solve correctly before the clock runs out.
+* **Time Challenge Mode:** Set a strict time limit (in seconds) and test yourself to see how many questions you can solve correctly before the clock runs out.
 
-\* \*\*Adaptive Mode:\*\* \*(Highly Recommended)\* You will begin at Level 1, and the application will dynamically adapt the difficulty based on your performance. This mode has no time limit and no question limit—you can practice at your own pace until you feel appropriately challenged.
-
-
-
-\---
+* **Adaptive Mode:** *(Highly Recommended)* You will begin at Level 1, and the application will dynamically adapt the difficulty based on your performance. This mode has no time limit and no question limit—you can practice at your own pace until you feel appropriately challenged.
 
 
 
-\## Difficulty Levels
+---
+
+
+
+## Difficulty Levels
 
 
 
@@ -108,73 +93,73 @@ The application generates dynamic math problems across five distinct levels of d
 
 
 
-\* \*\*Level 1 (Beginner):\*\* \* Simple single-digit addition and subtraction (results are always positive).
+* **Level 1 (Beginner):** * Simple single-digit addition and subtraction (results are always positive).
 
-\* Basic multiplication up to 10x10.
+* Basic multiplication up to 10x10.
 
-\* Simple division resulting in whole numbers between 1 and 10.
-
-
-
-
-
-\* \*\*Level 2 (Easy):\*\* \* Addition of a 2-digit and 1-digit number (without carrying).
-
-\* Subtraction of a 1-digit from a 2-digit number (without borrowing).
-
-\* Simple 2-digit multiplication (e.g., 11-13, 21-23 multiplied by 2 or 3).
-
-\* Introductory division.
+* Simple division resulting in whole numbers between 1 and 10.
 
 
 
 
 
-\* \*\*Level 3 (Intermediate):\*\* \* Addition and subtraction of 2-digit and 1-digit numbers (incorporating carrying and borrowing).
+* **Level 2 (Easy):** * Addition of a 2-digit and 1-digit number (without carrying).
 
-\* Intermediate multiplication (numbers between 14-29 multiplied by 4-7).
+* Subtraction of a 1-digit from a 2-digit number (without borrowing).
 
-\* Intermediate division (divisors from 4-8).
+* Simple 2-digit multiplication (e.g., 11-13, 21-23 multiplied by 2 or 3).
 
-
-
-
-
-\* \*\*Level 4 (Advanced):\*\* \* Full 2-digit by 2-digit addition and subtraction.
-
-\* Advanced multiplication (up to 75 multiplied by single digits up to 9).
-
-\* Advanced division (divisors from 6-12).
+* Introductory division.
 
 
 
 
 
-\* \*\*Level 5 (Expert):\*\* \* Full 3-digit by 3-digit addition and subtraction.
+* **Level 3 (Intermediate):** * Addition and subtraction of 2-digit and 1-digit numbers (incorporating carrying and borrowing).
 
-\* Complex multiplication, including squaring numbers between 11 and 25, or multiplying two 2-digit numbers together.
+* Intermediate multiplication (numbers between 14-29 multiplied by 4-7).
 
-\* Complex division with large dividends and divisors up to 25.
-
-
+* Intermediate division (divisors from 4-8).
 
 
 
 
 
-\---
+* **Level 4 (Advanced):** * Full 2-digit by 2-digit addition and subtraction.
+
+* Advanced multiplication (up to 75 multiplied by single digits up to 9).
+
+* Advanced division (divisors from 6-12).
 
 
 
-\## Practice Area \& Keyboard Shortcuts
+
+
+* **Level 5 (Expert):** * Full 3-digit by 3-digit addition and subtraction.
+
+* Complex multiplication, including squaring numbers between 11 and 25, or multiplying two 2-digit numbers together.
+
+* Complex division with large dividends and divisors up to 25.
 
 
 
-Before starting any mode, you can customize your \*\*Base Settings\*\*, such as choosing specific arithmetic operations or enabling mixed operations.
 
 
 
-\*(Tip: Pressing `Ctrl + Enter` anywhere in the setup will immediately click the "Start Practice" button.)\*
+
+---
+
+
+
+## Practice Area & Keyboard Shortcuts
+
+
+
+Before starting any mode, you can customize your **Base Settings**, such as choosing specific arithmetic operations or enabling mixed operations.
+
+
+
+*(Tip: Pressing `Ctrl + Enter` anywhere in the setup will immediately click the "Start Practice" button.)*
 
 
 
@@ -182,45 +167,45 @@ Once in the Practice Area, type your answer into the input field and press `Ente
 
 
 
-To ensure a seamless, distraction-free experience, the app includes several optimized keyboard shortcuts. \*(Note: Some standard buttons are intentionally hidden from screen readers to prevent clutter during practice).\*
+To ensure a seamless, distraction-free experience, the app includes several optimized keyboard shortcuts. *(Note: Some standard buttons are intentionally hidden from screen readers to prevent clutter during practice).*
 
 
 
-\* \*\*Listen to the Equation:\*\*
+* **Listen to the Equation:**
 
-\* `F2`: Read the equation using the app's internal Text-To-Speech (TTS).
+* `F2`: Read the equation using the app's internal Text-To-Speech (TTS).
 
-\* `Shift + F2`: Read the equation using your active screen reader.
-
-
-
-
-
-\* \*\*Check Remaining Time (if applicable):\*\*
-
-\* `Ctrl + R`: Announce time using internal speech.
-
-\* `Ctrl + Shift + R`: Announce time using your screen reader.
+* `Shift + F2`: Read the equation using your active screen reader.
 
 
 
 
 
-\* \*\*Pause / Resume:\*\*
+* **Check Remaining Time (if applicable):**
 
-\* `Ctrl + P`: Pause or resume the current session.
+* `Ctrl + R`: Announce time using internal speech.
 
-
-
-
+* `Ctrl + Shift + R`: Announce time using your screen reader.
 
 
 
-\---
+
+
+* **Pause / Resume:**
+
+* `Ctrl + P`: Pause or resume the current session.
 
 
 
-\## Results \& Evaluation
+
+
+
+
+---
+
+
+
+## Results & Evaluation
 
 
 
@@ -228,47 +213,47 @@ After finishing a practice session, a Results Dialog will appear containing:
 
 
 
-\* Total number of incorrect answers.
+* Total number of incorrect answers.
 
-\* Overall accuracy percentage.
+* Overall accuracy percentage.
 
-\* Average time spent per question.
+* Average time spent per question.
 
-\* A detailed breakdown of the questions you got wrong, displaying both your provided answer and the correct answer.
-
-
-
-\*(Note: To maintain focus and avoid breaking your flow, correct answers are hidden during the actual practice test. The final results page is the only place to review your mistakes).\*
+* A detailed breakdown of the questions you got wrong, displaying both your provided answer and the correct answer.
 
 
 
-\---
+*(Note: To maintain focus and avoid breaking your flow, correct answers are hidden during the actual practice test. The final results page is the only place to review your mistakes).*
 
 
 
-\## Mixed Operations \& PEMDAS
+---
 
 
 
-If you select the "Mixed Operations" setting, the application will present equations containing multiple mathematical operators. To solve these correctly, you must follow the standard order of operations, commonly known as \*\*PEMDAS\*\*:
+## Mixed Operations & PEMDAS
 
 
 
-1\. \*\*P\*\*arentheses (Solve anything inside brackets first)
-
-2\. \*\*E\*\*xponents (Powers and roots)
-
-3\. \*\*M\*\*ultiplication \& \*\*D\*\*ivision (Calculated from left to right)
-
-4\. \*\*A\*\*ddition \& \*\*S\*\*ubtraction (Calculated from left to right)
+If you select the "Mixed Operations" setting, the application will present equations containing multiple mathematical operators. To solve these correctly, you must follow the standard order of operations, commonly known as **PEMDAS**:
 
 
 
-\---
+1. **P**arentheses (Solve anything inside brackets first)
+
+2. **E**xponents (Powers and roots)
+
+3. **M**ultiplication & **D**ivision (Calculated from left to right)
+
+4. **A**ddition & **S**ubtraction (Calculated from left to right)
 
 
 
-\## Settings
+---
+
+
+
+## Settings
 
 
 
@@ -276,19 +261,19 @@ The settings menu allows you to tailor the app to your preferences:
 
 
 
-\* \*\*Language Selection:\*\* Choose your preferred language.
+* **Language Selection:** Choose your preferred language.
 
-\* \*\*Updates:\*\* Automatically check for new versions.
+* **Updates:** Automatically check for new versions.
 
-\* \*\*Speech Settings:\*\* You can toggle the internal speech engine on or off. If internal speech is disabled, your screen reader will automatically take over speaking the equations.
-
-
-
-\---
+* **Speech Settings:** You can toggle the internal speech engine on or off. If internal speech is disabled, your screen reader will automatically take over speaking the equations.
 
 
 
-\## Supported Languages
+---
+
+
+
+## Supported Languages
 
 
 
@@ -296,15 +281,15 @@ MentalMath currently supports:
 
 
 
-\* English
+* English
 
-\* Arabic
+* Arabic
 
-\* German
+* German
 
 
 
-\### How to add a translation
+### How to add a translation
 
 
 
@@ -312,19 +297,19 @@ Contributions to translate the app into new languages are highly encouraged! To 
 
 
 
-1\. Translate the app's string file located at: `/data/languages/messages.pot`.
+1. Translate the app's string file located at: `/data/languages/messages.pot`.
 
-2\. Create a new folder named after your target language code.
+2. Create a new folder named after your target language code.
 
-3\. Inside that folder, create a subfolder named `LC\_MESSAGES`. Place your compiled translation files (`mentalMath\_GUI.po` and `.mo`) inside.
+3. Inside that folder, create a subfolder named `LC_MESSAGES`. Place your compiled translation files (`mentalMath_GUI.po` and `.mo`) inside.
 
-4\. Inside the main language code folder, create a text file named `langName.translation` and write the name of your language inside it (e.g., `Deutsch (German)`).
+4. Inside the main language code folder, create a text file named `langName.translation` and write the name of your language inside it (e.g., `Deutsch (German)`).
 
-5\. Open the app, go to Settings, and test your new language to ensure it works.
+5. Open the app, go to Settings, and test your new language to ensure it works.
 
-6\. Translate this README file and place it in: `/data/help/\[your\_language\_code]/readme.html`.
+6. Translate this README file and place it in: `/data/help/[your_language_code]/readme.html`.
 
-7\. Submit a Pull Request on GitHub.
+7. Submit a Pull Request on GitHub.
 
 
 
@@ -332,11 +317,11 @@ If you have trouble with Pull Requests, feel free to reach out to Anas via email
 
 
 
-\---
+---
 
 
 
-\## Contributing
+## Contributing
 
 
 
@@ -344,9 +329,9 @@ All contributions—whether it's code, bug reports, or translations—are immens
 
 
 
-\## License
+## License
 
 
 
-This project is licensed under the \*\*GNU General Public License v3.0 (GPLv3)\*\*.
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 
