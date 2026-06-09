@@ -1,0 +1,584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-06-09 17:30+0300\n"
+"PO-Revision-Date: 2026-06-09 17:32+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.9\n"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:16
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:90
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:60
+msgid "Allowed operations"
+msgstr "Erlaubte Rechenarten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:22
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:96
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:66
+msgid "Addition"
+msgstr "Addition"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:26
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:100
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:70
+msgid "Subtraction"
+msgstr "Subtraktion"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:30
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:104
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:74
+msgid "Multiplication"
+msgstr "Multiplikation"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:34
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:108
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:78
+msgid "Division"
+msgstr "Division"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:74
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:78
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:148
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:152
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:118
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:122
+msgid "Enable mixed operations"
+msgstr "Gemischte Rechenarten aktivieren"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:89
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:163
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:133
+msgid "Start Practice"
+msgstr "Übung starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\adaptiveMode.py:95
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:169
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:139
+msgid "Start practice"
+msgstr "Übung starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:15
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:15
+msgid "Choose your level"
+msgstr "Wähle dein Level"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:25
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:25
+msgid "Level"
+msgstr "Level"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:28
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:28
+msgid "Choose a difficulty level from 1 to 5."
+msgstr "Wähle eine Schwierigkeitsstufe von 1 bis 5."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:36
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:41
+msgid "Questions count"
+msgstr "Anzahl der Fragen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:49
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:53
+msgid "Enable time limit"
+msgstr "Zeitlimit aktivieren"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:61
+msgid "Time in seconds:"
+msgstr "Zeit in Sekunden:"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:71
+msgid "Time limit in seconds"
+msgstr "Zeitlimit in Sekunden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\practiceMode.py:75
+msgid "Choose the time limit for each question."
+msgstr "Wähle das Zeitlimit für jede Frage."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:40
+msgid "Duration in seconds:"
+msgstr "Dauer in Sekunden:"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\appTabs\timeChallengeMode.py:49
+msgid "Duration in seconds"
+msgstr "Dauer in Sekunden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:11
+msgid "exit {} dialog"
+msgstr "Dialog „{} beenden“"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:13
+msgid "what woud you like to do?"
+msgstr "Was möchten Sie tun?"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:17
+msgid "exit"
+msgstr "Beenden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:17
+msgid "restart"
+msgstr "Neu starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:18
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:19
+msgid "OK"
+msgstr "OK"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\exitApp.py:21
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:24
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:69
+msgid "cancel"
+msgstr "Abbrechen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\openLink.py:11
+msgid "Open link dialog"
+msgstr "Link-öffnen-Dialog"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\openLink.py:12
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\openLink.py:15
+msgid "link"
+msgstr "Link"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\openLink.py:16
+msgid "open link "
+msgstr "Link öffnen "
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\guiTools\openLink.py:19
+msgid "copy link"
+msgstr "Link kopieren"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:24
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:25
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:20
+msgid "Math setion"
+msgstr "Mathematik-Bereich"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:30
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:39
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:32
+msgid "Equation"
+msgstr "Gleichung"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:33
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:34
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:42
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:43
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:35
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:36
+msgid "Type your answer"
+msgstr "Gib deine Antwort ein"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:35
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:44
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:37
+msgid "Press enter to submit"
+msgstr "Drücke die Eingabetaste zum Absenden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:54
+msgid "Congrats! You are now at level {}"
+msgstr "Glückwunsch! Du bist jetzt auf Level {}"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:58
+msgid "Please focuse! Your level has ben drupped to level{}"
+msgstr "Bitte konzentriere dich! Dein Level wurde auf Level {} herabgestuft."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:86
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\UI.py:91
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:96
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:101
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:81
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:86
+msgid ""
+"{}\n"
+"Your answer : {}\n"
+"Correct answer : {}\n"
+msgstr ""
+"{}\n"
+"Deine Antwort: {}\n"
+"Richtige Antwort: {}\n"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:21
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:20
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:21
+msgid "Test result"
+msgstr "Testergebnis"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:34
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:32
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:34
+msgid "Wrong answers"
+msgstr "Falsche Antworten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:40
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:37
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:40
+msgid "Test statistics"
+msgstr "Test-Statistiken"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:45
+msgid "Current level:{}"
+msgstr "Aktuelles Level: {}"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:48
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:44
+msgid "You answered {} out of {} questions correctly"
+msgstr "Du hast {} von {} Fragen richtig beantwortet"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:62
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:58
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:62
+msgid "Accuracy percentage: {:.2f}%"
+msgstr "Genauigkeit: {:.2f}%"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:75
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:71
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:75
+msgid "Average answer time: {:.2f} seconds"
+msgstr "Durchschnittliche Antwortzeit: {:.2f} Sekunden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\adaptiveMode\result.py:87
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\result.py:83
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:87
+msgid "Close"
+msgstr "Schließen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:49
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:132
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:43
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:107
+msgid "Pause"
+msgstr "Pause"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:68
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:107
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:91
+msgid "Remaining time : {} seconds"
+msgstr "Verbleibende Zeit: {} Sekunden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:111
+msgid ""
+"{}\n"
+"Time is up!\n"
+"Correct answer : {}\n"
+msgstr ""
+"{}\n"
+"Die Zeit ist um!\n"
+"Richtige Antwort: {}\n"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:125
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:100
+msgid "Paused"
+msgstr "Pausiert"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:127
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:102
+msgid "Resume"
+msgstr "Fortsetzen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\UI.py:130
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\UI.py:105
+msgid "Resumed"
+msgstr "Fortgesetzt"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:13
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:39
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:67
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:94
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:122
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:192
+msgid "plus"
+msgstr "Plus"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:20
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:46
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:74
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:102
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:130
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:193
+msgid "minus"
+msgstr ""
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:25
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:52
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:80
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:108
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:135
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:140
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:194
+msgid "times"
+msgstr ""
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:31
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:58
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:86
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:114
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:146
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\practiceMode\handler.py:195
+msgid "divided by"
+msgstr ""
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\gui\timeChallengeMode\result.py:47
+msgid "You answered {} out of {} questions in just {} seconds"
+msgstr "Du hast {} von {} Fragen in nur {} Sekunden beantwortet"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:16
+msgid "version : "
+msgstr "Version: "
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:21
+msgid "Choose your prefaired mode"
+msgstr "Wähle deinen bevorzugten Modus"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:23
+msgid "Practice mode"
+msgstr "Übungsmodus"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:24
+msgid "Time challenge mode"
+msgstr "Zeitchallenge-Modus"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:25
+msgid "Adaptive mode"
+msgstr "Adaptiver Modus"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:27
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:15
+msgid "settings"
+msgstr "Einstellungen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:35
+msgid "help"
+msgstr "Hilfe"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:36
+msgid "help file"
+msgstr "Hilfedatei"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:40
+msgid "contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:44
+msgid "telegram channel"
+msgstr "Telegram-Kanal"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:47
+msgid "Github"
+msgstr "GitHub"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:50
+msgid "x"
+msgstr "X"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:53
+msgid "email"
+msgstr "E-Mail"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:56
+msgid "visite project on Github"
+msgstr "Projekt auf GitHub besuchen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:59
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\update.py:22
+msgid "check for update"
+msgstr "Auf Updates prüfen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:62
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\licence.py:8
+msgid "license"
+msgstr "Lizenz"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:65
+msgid "donate"
+msgstr "Spenden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:68
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:70
+msgid "about"
+msgstr "Über"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\main.py:70
+msgid "{} version: {} description: {} developer: {}"
+msgstr "{} Version: {} Beschreibung: {} Entwickler: {}"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\licence.py:10
+msgid "server error"
+msgstr "Serverfehler"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\licence.py:10
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:20
+msgid "error"
+msgstr "Fehler"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:17
+msgid "select sectian"
+msgstr "Bereich auswählen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:22
+msgid "default"
+msgstr "Standard"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:27
+msgid "general"
+msgstr "Allgemein"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:29
+msgid "Speech settings"
+msgstr "Sprachausgabe-Einstellungen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:30
+msgid "update"
+msgstr "Update"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:32
+msgid "Backup and restore"
+msgstr "Sichern und Wiederherstellen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:48
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:32
+msgid "settings updated"
+msgstr "Einstellungen aktualisiert"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:49
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:33
+msgid ""
+"you must restart the program to apply changes \n"
+" do you want to restart now?"
+msgstr ""
+"Sie müssen das Programm neu starten, um die Änderungen zu übernehmen.\n"
+"Möchten Sie jetzt neu starten?"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:51
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:35
+msgid "restart now"
+msgstr "Jetzt neu starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:53
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:37
+msgid "restart later"
+msgstr "Später neu starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:64
+msgid "alert"
+msgstr "Warnung"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:65
+msgid ""
+"do you wanna reset your settings ? \n"
+" if you click reset , the program will restart to complete reset."
+msgstr ""
+"Möchten Sie Ihre Einstellungen zurücksetzen?\n"
+"Wenn Sie auf Zurücksetzen klicken, wird das Programm neu gestartet, um das "
+"Zurücksetzen abzuschließen."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\settings.py:67
+msgid "reset and restart"
+msgstr "Zurücksetzen und neu starten"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:14
+msgid "The process is being completed. Please wait..."
+msgstr "Der Vorgang wird abgeschlossen. Bitte warten..."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:29
+msgid "Done"
+msgstr "Fertig"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:29
+msgid "The settings have been copied successfully."
+msgstr "Die Einstellungen wurden erfolgreich kopiert."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:84
+msgid "Backup"
+msgstr "Sichern"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\backupAndRestoart.py:87
+msgid "Restore settings"
+msgstr "Einstellungen wiederherstellen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\genral.py:15
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\genral.py:17
+msgid "language"
+msgstr "Sprache"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\genral.py:24
+msgid "Show exit dialog when exiting the program"
+msgstr "Beendigungsdialog beim Schließen des Programms anzeigen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\speechSettings.py:9
+msgid "Disable enternal speech"
+msgstr "Interne Sprachausgabe deaktivieren"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\update.py:16
+msgid "Automatically check for update when program start"
+msgstr "Beim Programmstart automatisch nach Updates suchen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\settings\tabs\update.py:19
+msgid "download beta updates"
+msgstr "Beta-Updates herunterladen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:14
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:18
+msgid "info"
+msgstr "Info"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:14
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:18
+msgid "no updates fownd"
+msgstr "Keine Updates gefunden"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:20
+msgid "server error please try later"
+msgstr "Serverfehler, bitte versuchen Sie es später noch einmal"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:25
+msgid "new {} version {}"
+msgstr "Neue {} Version {}"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:27
+msgid "what's new"
+msgstr "Was gibt's Neues"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:30
+msgid "download"
+msgstr "Herunterladen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\checkForUpdate.py:33
+msgid "close"
+msgstr "schließen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:61
+msgid "Updating..."
+msgstr "Aktualisierung..."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:64
+msgid "Downloading update. please wait..."
+msgstr "Update wird heruntergeladen. Bitte warten..."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:71
+msgid "Downloading statase"
+msgstr "Download-Status"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:74
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:86
+msgid "Installing..."
+msgstr "Installation..."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:92
+msgid "An error detected. Please try again later."
+msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal."
+
+#: D:\programming\projects\python\GUI\mentalMath_GUI\mentalMath\update\updater.py:92
+msgid "Error!"
+msgstr "Fehler!"
