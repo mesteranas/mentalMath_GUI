@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentalMath - README</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fcfcfc;
+        }
+        main {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+        }
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+            color: #d63384;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+        em {
+            color: #555;
+        }
+        .toc-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            margin-bottom: 30px;
+        }
+        .toc-box h2 {
+            margin-top: 0;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <header>
+        <h1>MentalMath</h1>
+        <p>An inclusive, fully accessible application designed specifically for blind and visually impaired students to develop and master their mental math skills, built from the ground up with screen reader compatibility in mind.</p>
+    </header>
+
+    <nav class="toc-box">
+        <h2 id="table-of-contents">Table of Contents</h2>
+        <ul>
+            <li><a href="#why-mentalmath">Why MentalMath?</a></li>
+            <li><a href="#my-hope-for-this-project">My Hope for this Project</a></li>
+            <li><a href="#installation--usage">Installation &amp; Usage</a></li>
+            <li><a href="#practice-modes">Practice Modes</a></li>
+            <li><a href="#difficulty-levels">Difficulty Levels</a></li>
+            <li><a href="#practice-area--keyboard-shortcuts">Practice Area &amp; Keyboard Shortcuts</a></li>
+            <li><a href="#results--evaluation">Results &amp; Evaluation</a></li>
+            <li><a href="#mixed-operations--pemdas">Mixed Operations &amp; PEMDAS</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#supported-languages">Supported Languages</a></li>
+            <li><a href="#contributing--translations">Contributing &amp; Translations</a></li>
+            <li><a href="#license">License</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section>
+        <h2 id="why-mentalmath">Why MentalMath?</h2>
+        <p>MentalMath provides an inclusive environment specifically tailored to the visually impaired, supporting their aspirations to excel at mental mathematics. Because the developer is also blind, every piece of this program was built with extensive care and first-hand understanding of the needs of this marginalized community.</p>
+        <p>I discovered a severe lack of applications in this field that prioritize screen reader users. I personally needed an app exactly like this, so I decided to build it. It is completely open-source, highly accessible, constantly actively developed, and all suggestions are warmly welcomed.</p>
+    </section>
+
+    <section>
+        <h2 id="my-hope-for-this-project">My Hope for this Project</h2>
+        <p>Studies show that over 70% of people dislike math. I hope this app will grow, change lives, and help many blind and visually impaired users discover a true love for mathematics.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="installation--usage">Installation &amp; Usage</h2>
+        <p>You can download the latest version of MentalMath from <a href="https://github.com/mesteranas/mentalMath_GUI" target="_blank">the releases page</a>.</p>
+        <p>After downloading, run the installer and follow the provided instructions. <em>(Note: The installation process is currently only available in English)</em>. Once installed, the app will automatically launch in your device's default language if it is supported; otherwise, it will default to English.</p>
+        <p>Upon opening the app, you will find a tab bar allowing you to select your preferred method of practicing.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="practice-modes">Practice Modes</h2>
+        <ul>
+            <li><strong>Practice Mode:</strong> Choose exactly how many questions you want to answer, select your desired difficulty level, and enable an optional time limit.</li>
+            <li><strong>Time Challenge Mode:</strong> Set a strict time limit (in seconds) and test yourself to see how many questions you can solve correctly before the clock runs out.</li>
+            <li><strong>Adaptive Mode:</strong> <em>(Highly Recommended)</em> You will begin at Level 1, and the application will dynamically adapt the difficulty based on your performance. This mode has no time limit and no question limit—you can practice at your own pace until you feel appropriately challenged.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="difficulty-levels">Difficulty Levels</h2>
+        <p>The application generates dynamic math problems across five distinct levels of difficulty:</p>
+        <ul>
+            <li><strong>Level 1 (Beginner):</strong>
+                <ul>
+                    <li>Simple single-digit addition and subtraction (results are always positive).</li>
+                    <li>Basic multiplication up to 10x10.</li>
+                    <li>Simple division resulting in whole numbers between 1 and 10.</li>
+                </ul>
+            </li>
+            <li><strong>Level 2 (Easy):</strong>
+                <ul>
+                    <li>Addition of a 2-digit and 1-digit number (without carrying).</li>
+                    <li>Subtraction of a 1-digit from a 2-digit number (without borrowing).</li>
+                    <li>Simple 2-digit multiplication (e.g., 11-13, 21-23 multiplied by 2 or 3).</li>
+                    <li>Introductory division.</li>
+                </ul>
+            </li>
+            <li><strong>Level 3 (Intermediate):</strong>
+                <ul>
+                    <li>Addition and subtraction of 2-digit and 1-digit numbers (incorporating carrying and borrowing).</li>
+                    <li>Intermediate multiplication (numbers between 14-29 multiplied by 4-7).</li>
+                    <li>Intermediate division (divisors from 4-8).</li>
+                </ul>
+            </li>
+            <li><strong>Level 4 (Advanced):</strong>
+                <ul>
+                    <li>Full 2-digit by 2-digit addition and subtraction.</li>
+                    <li>Advanced multiplication (up to 75 multiplied by single digits up to 9).</li>
+                    <li>Advanced division (divisors from 6-12).</li>
+                </ul>
+            </li>
+            <li><strong>Level 5 (Expert):</strong>
+                <ul>
+                    <li>Full 3-digit by 3-digit addition and subtraction.</li>
+                    <li>Complex multiplication, including squaring numbers between 11 and 25, or multiplying two 2-digit numbers together.</li>
+                    <li>Complex division with large dividends and divisors up to 25.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="practice-area--keyboard-shortcuts">Practice Area &amp; Keyboard Shortcuts</h2>
+        <p>Before starting any mode, you can customize your <strong>Base Settings</strong>, such as choosing specific arithmetic operations or enabling mixed operations.</p>
+        <p><em>(Tip: Pressing <code>Ctrl + Enter</code> anywhere in the setup will immediately click the "Start Practice" button.)</em></p>
+        
+        <p>Once in the Practice Area, type your answer into the input field and press <code>Enter</code>. An audio cue will immediately indicate whether your answer was correct or incorrect.</p>
+        <p>To ensure a seamless, distraction-free experience, the app includes several optimized keyboard shortcuts. <em>(Note: Some standard buttons are intentionally hidden from screen readers to prevent clutter during practice)</em>.</p>
+        
+        <ul>
+            <li><strong>Listen to the Equation:</strong>
+                <ul>
+                    <li><code>F2</code>: Read the equation using the app's internal Text-To-Speech (TTS).</li>
+                    <li><code>Shift + F2</code>: Read the equation using your active screen reader.</li>
+                </ul>
+            </li>
+            <li><strong>Check Remaining Time (if applicable):</strong>
+                <ul>
+                    <li><code>Ctrl + R</code>: Announce time using internal speech.</li>
+                    <li><code>Ctrl + Shift + R</code>: Announce time using your screen reader.</li>
+                </ul>
+            </li>
+            <li><strong>Pause / Resume:</strong>
+                <ul>
+                    <li><code>Ctrl + P</code>: Pause or resume the current session.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="results--evaluation">Results &amp; Evaluation</h2>
+        <p>After finishing a practice session, a Results Dialog will appear containing:</p>
+        <ul>
+            <li>Total number of incorrect answers.</li>
+            <li>Overall accuracy percentage.</li>
+            <li>Average time spent per question.</li>
+            <li>A detailed breakdown of the questions you got wrong, displaying both your provided answer and the correct answer.</li>
+        </ul>
+        <p><em>(Note: To maintain focus and avoid breaking your flow, correct answers are hidden during the actual practice test. The final results page is the only place to review your mistakes).</em></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="mixed-operations--pemdas">Mixed Operations &amp; PEMDAS</h2>
+        <p>If you select the "Mixed Operations" setting, the application will present equations containing multiple mathematical operators. To solve these correctly, you must follow the standard order of operations, commonly known as <strong>PEMDAS</strong>:</p>
+        <ol>
+            <li><strong>P</strong>arentheses (Solve anything inside brackets first)</li>
+            <li><strong>E</strong>xponents (Powers and roots)</li>
+            <li><strong>M</strong>ultiplication &amp; <strong>D</strong>ivision (Calculated from left to right)</li>
+            <li><strong>A</strong>ddition &amp; <strong>S</strong>ubtraction (Calculated from left to right)</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="settings">Settings</h2>
+        <p>The settings menu allows you to tailor the app to your preferences:</p>
+        <ul>
+            <li><strong>Language Selection:</strong> Choose your preferred language.</li>
+            <li><strong>Updates:</strong> Automatically check for new versions.</li>
+            <li><strong>Speech Settings:</strong> You can toggle the internal speech engine on or off. If internal speech is disabled, your screen reader will automatically take over speaking the equations.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="supported-languages">Supported Languages</h2>
+        <p>MentalMath currently supports:</p>
+        <ul>
+            <li>English</li>
+            <li>Arabic</li>
+            <li>German</li>
+        </ul>
+
+        <h3 id="how-to-add-a-translation">How to add a translation</h3>
+        <p>Contributions to translate the app into new languages are highly encouraged! To submit a translation:</p>
+        <ol>
+            <li>Translate the app's string file located at: <code>/data/languages/messages.pot</code>.</li>
+            <li>Create a new folder named after your target language code.</li>
+            <li>Inside that folder, create a subfolder named <code>LC_MESSAGES</code>. Place your compiled translation files (<code>mentalMath_GUI.po</code> and <code>.mo</code>) inside.</li>
+            <li>Inside the main language code folder, create a text file named <code>langName.translation</code> and write the name of your language inside it (e.g., <code>Deutsch (German)</code>).</li>
+            <li>Open the app, go to Settings, and test your new language to ensure it works.</li>
+            <li>Translate this README file and place it in: <code>/data/help/[your_language_code]/readme.html</code>.</li>
+            <li>Submit a Pull Request on GitHub.</li>
+        </ol>
+        <p>If you have trouble with Pull Requests, feel free to reach out to Anas via email or Telegram to submit your translation!</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="contributing--translations">Contributing</h2>
+        <p>All contributions—whether it's code, bug reports, or translations—are immensely welcome. Please feel free to open an issue or submit a pull request!</p>
+    </section>
+
+    <section>
+        <h2 id="license">License</h2>
+        <p>This project is licensed under the <strong>GNU General Public License v3.0 (GPLv3)</strong>.</p>
+    </section>
+</main>
+
+</body>
+</html>

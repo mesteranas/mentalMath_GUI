@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentalMath - LIESMICH</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fcfcfc;
+        }
+        main {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+        }
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+            color: #d63384;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 40px 0;
+        }
+        em {
+            color: #555;
+        }
+        .toc-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            margin-bottom: 30px;
+        }
+        .toc-box h2 {
+            margin-top: 0;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <header>
+        <h1>MentalMath (Kopfrechnen)</h1>
+        <p>Eine inklusive, vollständig barrierefreie Anwendung, die speziell für blinde und sehbehinderte Schüler entwickelt wurde, um ihre Fähigkeiten im Kopfrechnen zu entwickeln und zu meistern. Von Grund auf mit Blick auf die Kompatibilität mit Screenreadern programmiert.</p>
+    </header>
+
+    <nav class="toc-box">
+        <h2 id="table-of-contents">Inhaltsverzeichnis</h2>
+        <ul>
+            <li><a href="#why-mentalmath">Warum MentalMath?</a></li>
+            <li><a href="#my-hope-for-this-project">Meine Hoffnung für dieses Projekt</a></li>
+            <li><a href="#installation--usage">Installation &amp; Nutzung</a></li>
+            <li><a href="#practice-modes">Übungsmodi</a></li>
+            <li><a href="#difficulty-levels">Schwierigkeitsgrade</a></li>
+            <li><a href="#practice-area--keyboard-shortcuts">Übungsbereich &amp; Tastenkombinationen</a></li>
+            <li><a href="#results--evaluation">Ergebnisse &amp; Auswertung</a></li>
+            <li><a href="#mixed-operations--pemdas">Gemischte Operationen &amp; Rechenreihenfolge (PEMDAS)</a></li>
+            <li><a href="#settings">Einstellungen</a></li>
+            <li><a href="#supported-languages">Unterstützte Sprachen</a></li>
+            <li><a href="#contributing--translations">Mitwirken &amp; Übersetzungen</a></li>
+            <li><a href="#license">Lizenz</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section>
+        <h2 id="why-mentalmath">Warum MentalMath?</h2>
+        <p>MentalMath bietet eine inklusive Umgebung, die speziell auf sehbehinderte Menschen zugeschnitten ist und ihre Bestrebungen unterstützt, im Kopfrechnen hervorragende Leistungen zu erbringen. Da der Entwickler selbst blind ist, wurde jeder Teil dieses Programms mit großer Sorgfalt und aus erster Hand mit Verständnis für die Bedürfnisse dieser marginalisierten Gemeinschaft entwickelt.</p>
+        <p>Ich habe festgestellt, dass es in diesem Bereich einen gravierenden Mangel an Anwendungen gibt, die Nutzer von Screenreadern priorisieren. Ich persönlich brauchte genau so eine App, also habe ich beschlossen, sie zu entwickeln. Sie ist vollständig Open-Source, hochgradig barrierefrei, wird ständig weiterentwickelt und alle Vorschläge sind herzlich willkommen.</p>
+    </section>
+
+    <section>
+        <h2 id="my-hope-for-this-project">Meine Hoffnung für dieses Projekt</h2>
+        <p>Studien zeigen, dass über 70 % der Menschen Mathematik nicht mögen. Ich hoffe, dass diese App wächst, Leben verändert und vielen blinden und sehbehinderten Nutzern hilft, eine wahre Liebe zur Mathematik zu entdecken.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="installation--usage">Installation &amp; Nutzung</h2>
+        <p>Sie können die neueste Version von MentalMath von der <a href="https://github.com/mesteranas/mentalMath_GUI" target="_blank">Releases-Seite</a> herunterladen.</p>
+        <p>Führen Sie nach dem Herunterladen das Installationsprogramm aus und befolgen Sie die Anweisungen. <em>(Hinweis: Der Installationsprozess ist derzeit nur auf Englisch verfügbar)</em>. Nach der Installation startet die App automatisch in der Standardsprache Ihres Geräts, sofern diese unterstützt wird; andernfalls wird standardmäßig Englisch verwendet.</p>
+        <p>Nach dem Öffnen der App finden Sie eine Tab-Leiste (Reiter), über die Sie Ihre bevorzugte Übungsmethode auswählen können.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="practice-modes">Übungsmodi</h2>
+        <ul>
+            <li><strong>Übungsmodus (Practice Mode):</strong> Wählen Sie genau aus, wie viele Fragen Sie beantworten möchten, legen Sie den gewünschten Schwierigkeitsgrad fest und aktivieren Sie optional ein Zeitlimit.</li>
+            <li><strong>Zeit-Herausforderung (Time Challenge Mode):</strong> Setzen Sie ein strenges Zeitlimit (in Sekunden) und testen Sie sich selbst, um zu sehen, wie viele Fragen Sie richtig lösen können, bevor die Zeit abläuft.</li>
+            <li><strong>Adaptiver Modus (Adaptive Mode):</strong> <em>(Sehr empfehlenswert)</em> Sie beginnen auf Stufe 1, und die Anwendung passt den Schwierigkeitsgrad dynamisch an Ihre Leistung an. Dieser Modus hat weder ein Zeitlimit noch eine Begrenzung der Fragenanzahl – Sie können in Ihrem eigenen Tempo üben, bis Sie sich angemessen gefordert fühlen.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="difficulty-levels">Schwierigkeitsgrade</h2>
+        <p>Die Anwendung generiert dynamische Matheaufgaben in fünf verschiedenen Schwierigkeitsgraden:</p>
+        <ul>
+            <li><strong>Stufe 1 (Anfänger):</strong>
+                <ul>
+                    <li>Einfache einstellige Addition und Subtraktion (Ergebnisse sind immer positiv).</li>
+                    <li>Einfaches Einmaleins bis 10x10.</li>
+                    <li>Einfache Division mit ganzen Zahlen zwischen 1 und 10 als Ergebnis.</li>
+                </ul>
+            </li>
+            <li><strong>Stufe 2 (Leicht):</strong>
+                <ul>
+                    <li>Addition einer zweistelligen und einer einstelligen Zahl (ohne Zehnerübergang).</li>
+                    <li>Subtraktion einer einstelligen von einer zweistelligen Zahl (ohne Zehnerübergang).</li>
+                    <li>Einfache zweistellige Multiplikation (z. B. 11-13, 21-23 multipliziert mit 2 oder 3).</li>
+                    <li>Einführende Division.</li>
+                </ul>
+            </li>
+            <li><strong>Stufe 3 (Mittel):</strong>
+                <ul>
+                    <li>Addition und Subtraktion von zweistelligen und einstelligen Zahlen (mit Zehnerübergang).</li>
+                    <li>Mittlere Multiplikation (Zahlen zwischen 14-29 multipliziert mit 4-7).</li>
+                    <li>Mittlere Division (Divisoren von 4-8).</li>
+                </ul>
+            </li>
+            <li><strong>Stufe 4 (Fortgeschritten):</strong>
+                <ul>
+                    <li>Vollständige Addition und Subtraktion zweier zweistelliger Zahlen.</li>
+                    <li>Fortgeschrittene Multiplikation (bis zu 75 multipliziert mit einstelligen Zahlen bis 9).</li>
+                    <li>Fortgeschrittene Division (Divisoren von 6-12).</li>
+                </ul>
+            </li>
+            <li><strong>Stufe 5 (Experte):</strong>
+                <ul>
+                    <li>Vollständige Addition und Subtraktion zweier dreistelliger Zahlen.</li>
+                    <li>Komplexe Multiplikation, einschließlich Quadrieren von Zahlen zwischen 11 und 25, oder Multiplikation zweier zweistelliger Zahlen.</li>
+                    <li>Komplexe Division mit großen Dividenden und Divisoren bis 25.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="practice-area--keyboard-shortcuts">Übungsbereich &amp; Tastenkombinationen</h2>
+        <p>Bevor Sie einen Modus starten, können Sie Ihre <strong>Grundeinstellungen</strong> anpassen, z. B. bestimmte Rechenarten auswählen oder gemischte Operationen aktivieren.</p>
+        <p><em>(Tipp: Wenn Sie in den Einstellungen <code>Strg + Enter</code> drücken, wird sofort die Schaltfläche "Übung starten" geklickt.)</em></p>
+        
+        <p>Sobald Sie sich im Übungsbereich befinden, tippen Sie Ihre Antwort in das Eingabefeld ein und drücken Sie <code>Enter</code>. Ein akustisches Signal zeigt sofort an, ob Ihre Antwort richtig oder falsch war.</p>
+        <p>Um ein nahtloses, ablenkungsfreies Erlebnis zu gewährleisten, enthält die App mehrere optimierte Tastenkombinationen. <em>(Hinweis: Einige Standard-Schaltflächen sind für Screenreader absichtlich ausgeblendet, um Unordnung während der Übung zu vermeiden)</em>.</p>
+        
+        <ul>
+            <li><strong>Gleichung vorlesen lassen:</strong>
+                <ul>
+                    <li><code>F2</code>: Die Gleichung wird über die interne Sprachausgabe (TTS) der App vorgelesen.</li>
+                    <li><code>Shift + F2</code>: Die Gleichung wird über Ihren aktiven Screenreader vorgelesen.</li>
+                </ul>
+            </li>
+            <li><strong>Verbleibende Zeit prüfen (falls zutreffend):</strong>
+                <ul>
+                    <li><code>Strg + R</code>: Zeitansage über die interne Sprachausgabe.</li>
+                    <li><code>Strg + Shift + R</code>: Zeitansage über Ihren Screenreader.</li>
+                </ul>
+            </li>
+            <li><strong>Pause / Fortsetzen:</strong>
+                <ul>
+                    <li><code>Strg + P</code>: Die aktuelle Sitzung pausieren oder fortsetzen.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="results--evaluation">Ergebnisse &amp; Auswertung</h2>
+        <p>Nach Beendigung einer Übungssitzung erscheint ein Ergebnisdialog mit folgenden Informationen:</p>
+        <ul>
+            <li>Gesamtzahl der falschen Antworten.</li>
+            <li>Prozentuale Gesamtgenauigkeit.</li>
+            <li>Durchschnittlich benötigte Zeit pro Frage.</li>
+            <li>Eine detaillierte Aufschlüsselung der falsch beantworteten Fragen, die sowohl Ihre eingegebene Antwort als auch die richtige Antwort anzeigt.</li>
+        </ul>
+        <p><em>(Hinweis: Um die Konzentration aufrechtzuerhalten und den Fluss nicht zu unterbrechen, bleiben die richtigen Antworten während des eigentlichen Übungstests verborgen. Die abschließende Ergebnisseite ist der einzige Ort, an dem Sie Ihre Fehler überprüfen können).</em></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="mixed-operations--pemdas">Gemischte Operationen &amp; Rechenreihenfolge (PEMDAS)</h2>
+        <p>Wenn Sie die Einstellung "Gemischte Operationen" wählen, präsentiert die Anwendung Gleichungen, die mehrere mathematische Operatoren enthalten. Um diese richtig zu lösen, müssen Sie die Standard-Rechenreihenfolge beachten, allgemein bekannt als Punkt-vor-Strich-Rechnung oder <strong>PEMDAS</strong> (im Englischen):</p>
+        <ol>
+            <li><strong>P</strong>arentheses (Klammern zuerst auflösen)</li>
+            <li><strong>E</strong>xponents (Potenzen und Wurzeln)</li>
+            <li><strong>M</strong>ultiplication &amp; <strong>D</strong>ivision (Multiplikation &amp; Division – von links nach rechts)</li>
+            <li><strong>A</strong>ddition &amp; <strong>S</strong>ubtraction (Addition &amp; Subtraktion – von links nach rechts)</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="settings">Einstellungen</h2>
+        <p>Im Einstellungsmenü können Sie die App an Ihre Vorlieben anpassen:</p>
+        <ul>
+            <li><strong>Sprachauswahl:</strong> Wählen Sie Ihre bevorzugte Sprache.</li>
+            <li><strong>Updates:</strong> Automatisch nach neuen Versionen suchen.</li>
+            <li><strong>Spracheinstellungen:</strong> Sie können die interne Sprachausgabe ein- oder ausschalten. Wenn die interne Sprachausgabe deaktiviert ist, übernimmt automatisch Ihr Screenreader das Vorlesen der Gleichungen.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="supported-languages">Unterstützte Sprachen</h2>
+        <p>MentalMath unterstützt derzeit:</p>
+        <ul>
+            <li>Englisch</li>
+            <li>Arabisch</li>
+            <li>Deutsch</li>
+        </ul>
+
+        <h3 id="how-to-add-a-translation">Wie man eine Übersetzung hinzufügt</h3>
+        <p>Beiträge zur Übersetzung der App in neue Sprachen sind sehr erwünscht! Um eine Übersetzung einzureichen:</p>
+        <ol>
+            <li>Übersetzen Sie die Sprachdatei der App unter: <code>/data/languages/messages.pot</code>.</li>
+            <li>Erstellen Sie einen neuen Ordner, benannt nach Ihrem Zielsprachencode (z.B. <code>de</code>).</li>
+            <li>Erstellen Sie in diesem Ordner einen Unterordner namens <code>LC_MESSAGES</code>. Legen Sie Ihre kompilierten Übersetzungsdateien (<code>mentalMath_GUI.po</code> und <code>.mo</code>) dort hinein.</li>
+            <li>Erstellen Sie im Hauptordner des Sprachencodes eine Textdatei namens <code>langName.translation</code> und schreiben Sie den Namen Ihrer Sprache hinein (z. B. <code>Deutsch (German)</code>).</li>
+            <li>Öffnen Sie die App, gehen Sie zu den Einstellungen und testen Sie Ihre neue Sprache, um sicherzustellen, dass sie funktioniert.</li>
+            <li>Übersetzen Sie diese README-Datei und legen Sie sie hier ab: <code>/data/help/[ihr_sprachencode]/readme.html</code>.</li>
+            <li>Reichen Sie einen Pull Request auf GitHub ein.</li>
+        </ol>
+        <p>Wenn Sie Probleme mit Pull Requests haben, können Sie Anas gerne per E-Mail oder Telegram kontaktieren, um Ihre Übersetzung einzureichen!</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="contributing--translations">Mitwirken</h2>
+        <p>Alle Beiträge – egal ob es sich um Code, Fehlerberichte oder Übersetzungen handelt – sind immens willkommen. Fühlen Sie sich frei, ein Issue zu eröffnen oder einen Pull Request einzureichen!</p>
+    </section>
+
+    <section>
+        <h2 id="license">Lizenz</h2>
+        <p>Dieses Projekt ist lizenziert unter der <strong>GNU General Public License v3.0 (GPLv3)</strong>.</p>
+    </section>
+</main>
+
+</body>
+</html>
